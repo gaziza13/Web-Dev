@@ -1,0 +1,142 @@
+body{
+    font-family: sans-serif;
+}
+
+#image{
+    position: relative;
+    top:2rem;
+    left: 20rem;
+}
+#insta{
+    position: relative;
+    top: 1.5rem;
+    left: 3rem;
+}
+.register{
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    top: -1rem;
+    right:1.5rem;
+    height: 50px;
+    width: 75%;
+    margin: 40px;
+}
+input{
+    width: 250px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    text-align: left;
+    justify-content: left;
+    border: 1px solid rgb(173, 172, 172);
+}
+
+#login{
+    background-color: #54b4f5;
+    color: white;
+    position: relative;
+    top: 1rem;
+    left: 1.5rem;
+    font-size: 15px;
+    height: 35px;
+    width: 87%;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+#or{
+    color: grey;
+    font-size: 12px;
+    position: relative;
+    left: 10rem;
+    top: 1.5rem;
+}
+#ramka{
+    position: relative;
+    left:13rem;
+    bottom:34.5rem;
+    width:23%;
+    height: 25rem;
+    margin: auto;
+    border: 1px solid #DBDBDB;
+    
+}
+.facebook{
+    text-decoration: none;
+    color: rgba(13, 13, 108, 0.699);
+    position: relative;
+    left: 5rem;
+    top: 1.5rem;
+    font-weight: 510;
+    font-size: 14px;
+}
+
+#forgot{
+    position: relative;
+    top: 4rem;
+    right: 3.5rem;
+    text-decoration: none;
+    font-size:13px;
+    color:  rgb(10, 10, 129);
+}
+
+#ramka2{
+    border: 1px solid #DBDBDB;
+    position: relative;
+    top: 6rem;
+    width: 100%;
+    height: 15%;
+}
+
+.acc{
+    position: relative;
+    left: 4rem;
+    top: 0.4rem;
+    font-size: 14px;
+}
+#sign-up{
+    color: #0095F6;
+    text-decoration: none;
+    font-weight: 550;
+}
+
+#get{
+    position: relative;
+    top: 6rem;
+    left: 8rem;
+    font-size: 14px;
+}
+
+#app-store{
+    position: relative;
+    top: 5.7rem;
+    left: 1.4rem;
+}
+#google-play{
+    position: relative;
+    top: 5.7rem;
+    left: 0.8rem;
+}
+
+.links-box{
+    position: relative;
+    top: 10rem;
+    right: 30rem;
+    width: 1000px;
+    font-size: 12px;
+    
+}
+
+.links{
+    text-decoration: none;
+    color: rgb(146, 145, 145);
+    margin-right: 15px;
+}
+
+#end{
+    position: relative;
+    top: 10.6rem;
+    right: 6rem;
+    font-size: 12.5px;
+    color: rgb(146, 145, 145);  
+}
