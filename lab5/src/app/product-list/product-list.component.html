@@ -1,0 +1,33 @@
+<app-category-view></app-category-view>
+<div class="product-container">
+  <div *ngFor="let product of filteredProducts" class="product-card">
+    <h3>
+      <a [title]="product.name + ' details'" [routerLink]="['/products', product.id]">
+        {{ product.name }}
+      </a>
+    </h3>
+    <!-- <p *ngIf="product.description"> -->
+      <!-- <span>Description: </span>{{ product.description }} -->
+    <!-- </p> -->
+    <p *ngIf="product.price" class="price">
+      <span>{{ product.price }}</span> ₸ 
+    </p>
+    <p>
+      Product rating: {{ product.rating }}
+      <img [src]="product.ratingUrl" width="70" height="20" />
+    </p>
+    <img [src]="product.imageUrl" width="200" height="200" />
+
+
+    <div class="button-container button-row">
+      <button type="button" (click)="share()">
+        Share
+      </button>
+      <app-product-alerts [product]="product" (notify)="onNotify()"></app-product-alerts>
+    </div>
+    <button class="likebtn" type="button" (click)="like(product)">
+      I like this: {{ product.likes }}
+    </button>
+    <button type="button" class="deletebtn" (click)="delete(product)">Delete</button>
+  </div>
+</div>
