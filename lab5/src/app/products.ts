@@ -162,17 +162,6 @@ export const products = [
     categoryId: 3,
   },
   {
-    id: 13,
-    name: 'Ноутбук Dream Machines RG3070-15KZ25',
-    price: 1650000,
-    description: 'диагональ экрана: 15.6 дюйм, процессор: Intel Core i7-10870H,размер оперативной памяти: 16.0 Гб,тип жесткого диска: SSD,общий объем накопителей: 1000.0 Гб',
-    imageUrl: 'https://i.imgur.com/96ls0nt.jpeg',
-    rating: 3.4,
-    ratingUrl: 'https://i.imgur.com/8dsvtlf.jpeg',
-    likes: 0,
-    categoryId: 3,
-  },
-  {
     id: 14,
     name: 'Ноутбук Huawei Matebook D16 MitchellF-W5651',
     price: 344000,

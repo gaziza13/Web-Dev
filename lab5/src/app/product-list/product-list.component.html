@@ -9,24 +9,23 @@
     <!-- <p *ngIf="product.description"> -->
       <!-- <span>Description: </span>{{ product.description }} -->
     <!-- </p> -->
-    <p *ngIf="product.price" class="price">
-      <span>{{ product.price }}</span> ₸ 
-    </p>
+    
     <p>
       Product rating: {{ product.rating }}
       <img [src]="product.ratingUrl" width="70" height="20" />
     </p>
+    <h4>{{product.price }} ₸</h4>
     <img [src]="product.imageUrl" width="200" height="200" />
 
 
     <div class="button-container button-row">
-      <button type="button" (click)="share()">
+      <button class = "share" type="button" (click)="share()">
         Share
       </button>
-      <app-product-alerts [product]="product" (notify)="onNotify()"></app-product-alerts>
+      <!-- <app-product-alerts [product]="product" (notify)="onNotify()"></app-product-alerts> -->
     </div>
     <button class="likebtn" type="button" (click)="like(product)">
-      I like this: {{ product.likes }}
+      Like: {{ product.likes }}
     </button>
     <button type="button" class="deletebtn" (click)="delete(product)">Delete</button>
   </div>

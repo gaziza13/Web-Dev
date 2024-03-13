@@ -1,20 +1,19 @@
 body {
     font-family: sans-serif;
+    background-color: white;
 }
 #top{
-    width: 1400px;
-    height: 30px;
-    margin: 0 auto;
-    padding: 15px;
-    background-color: black;
-    color: rgb(171, 165, 165);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .container {
     max-width: 900px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: #96CDC3;
     border-radius: 10px;
+    margin-top: 30px;
 }
 h1 {
     text-align: center;
@@ -33,13 +32,13 @@ input[type="text"] {
 }
 button {
     padding: 8px 15px;
-    background-color: #2288e1;
+    background-color: black;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }  
 button:hover {
-    background-color:  #145fa1;
+    background-color:  #615d61;
 }
 

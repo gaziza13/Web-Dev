@@ -25,4 +25,3 @@ function addItem() {
   
     input.value = "";
   }
-  
