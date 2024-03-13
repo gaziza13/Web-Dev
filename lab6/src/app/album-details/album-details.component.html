@@ -1,0 +1,9 @@
+<h1>Welcome to album {{album.id}}</h1>
+<h2>{{album.title}}</h2>
+
+<fieldset>
+    <input type="text" [(ngModel)]="title">
+    <button (click)="changeTitle()">Change Title</button>
+</fieldset>
+<h3><a routerLink="photos">See photos</a></h3>
+<a routerLink="../">Go back</a>

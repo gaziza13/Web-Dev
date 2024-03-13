@@ -1,0 +1,30 @@
+ul{
+    background-color: rgb(239, 216, 219);
+}
+.album-holder div {
+    border: solid 1px;
+    padding: 20px;
+    margin: 5px;
+    width: 45px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.album-holder {
+    display: flex;
+    flex-wrap: wrap;
+}
+.delete{
+    background-color: rgb(81, 83, 216);
+    color: white;
+}
