@@ -1,0 +1,25 @@
+.vacancy {
+  font-family: Arial, sans-serif;
+  color: #333;
+  padding: 8px 16px;
+  margin: 0;
+  border-bottom: 1px solid #eee;
+}
+
+.vacancy h3 {
+  margin-top: 0; 
+  font-size: 23px; 
+}
+
+.vacancy p {
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-align: right;
+}
+
+.vacancy h1 {
+  margin: 0; 
+  font-size: 18px; 
+  color: #333; 
+  text-align: right;
+}
